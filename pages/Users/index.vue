@@ -1,5 +1,10 @@
 <template>
-  <section class="container">
+  <div>
     <p>Please enter the id and click the button</p>
-  </section>
+  </div>
 </template>
+<script>
+export default {
+  layout: 'users'
+}
+</script>

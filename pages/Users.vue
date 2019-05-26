@@ -19,7 +19,8 @@ export default {
     onLoadUser() {
       this.$router.push(`/users/${this.userId}`)
     }
-  }
+  },
+  layout: 'users'
 }
 </script>
 
@@ -27,7 +28,6 @@ export default {
   .users-wrapper {
     padding: 100px;
     margin: 0 auto;
-    min-height: 100vh;
     text-align: center;
   }
 </style>

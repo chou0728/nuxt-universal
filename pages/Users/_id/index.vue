@@ -1,9 +1,7 @@
 <template>
-  <section class="container">
-    <div>
-      <h1>User id : {{ $route.params.id }}</h1>
-    </div>
-  </section>
+  <div>
+    <p>User id : {{ $route.params.id }}</p>
+  </div>
 </template>
 
 <script>
@@ -13,6 +11,7 @@ export default {
     console.log(data)
     return /^\d+$/.test(data.params.id) //可以用來驗證param是數字才進來
     // return data.params.id === '1'
-  }
+  },
+  layout: 'users'
 }
 </script>
