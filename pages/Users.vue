@@ -1,3 +1,11 @@
+<style scoped>
+  .users-wrapper {
+    padding: 100px;
+    margin: 0 auto;
+    text-align: center;
+  }
+</style>
+
 <template>
   <div class="users-wrapper">
     <h1>this is users page</h1>
@@ -23,11 +31,3 @@ export default {
   layout: 'users'
 }
 </script>
-
-<style>
-  .users-wrapper {
-    padding: 100px;
-    margin: 0 auto;
-    text-align: center;
-  }
-</style>

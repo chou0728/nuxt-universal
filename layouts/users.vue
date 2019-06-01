@@ -1,15 +1,16 @@
 <template>
   <div>
-    <header>Users Section</header>
+    <Header />
     <nuxt />
   </div>
 </template>
-<style>
-  header {
-    width: 100%;
-    background: blue;
-    color: #fff;
-    text-align: center;
-    font-size: 40px
-  }
-</style>
+
+<script>
+import Header from '@/components/Header.vue'
+
+export default {
+	components: {
+		Header
+	}
+}
+</script>
